@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Updated to v3
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3  # Updated to v3
         with:
-          node-version: '14'  # Specify the Node.js version you are using
+          node-version: '16'  # Specify Node.js version 16
 
       - name: Install dependencies
         run: npm install
@@ -26,3 +26,5 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_dir: ./build  # Adjust this if your build directory is different

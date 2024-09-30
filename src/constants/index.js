@@ -27,6 +27,9 @@ import {
   dcc,
   kelhel,
   microverse,
+  bell,
+  opentext,
+  ised,
 } from '../assets';
 
 export const navLinks = [
@@ -122,36 +125,62 @@ const technologies = [
   },
 ];
 
+
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Data Scientist',
+    company_name: 'Innovation Science and Economic Development Canada',
+    icon: ised, // Add appropriate icon here
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'May 2022 - April 2024',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'Software Developer',
+    company_name: 'OpenText',
+    icon: opentext, // Add appropriate icon here
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'May 2021 - August 2021',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Data Analyst',
+    company_name: 'Bell Media',
+    icon: bell, // Add appropriate icon here
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'January 2020 - August 2020',
   },
 ];
+
+
+// const experiences = [
+//   {
+//     title: 'Front-End Developer',
+//     company_name: 'Cover Hunt',
+//     icon: coverhunt,
+//     iconBg: '#333333',
+//     date: 'Aug 2021 - Feb 2022',
+//   },
+//   {
+//     title: 'Mentor (Volunteer)',
+//     company_name: 'Microverse',
+//     icon: microverse,
+//     iconBg: '#333333',
+//     date: 'Mar 2022 - May 2022',
+//   },
+//   {
+//     title: 'Junior Software Engineer',
+//     company_name: 'Kelhel',
+//     icon: kelhel,
+//     iconBg: '#333333',
+//     date: 'May 2022 - Oct 2022',
+//   },
+//   {
+//     title: 'Full Stack Developer',
+//     company_name: 'Diversity Cyber Council',
+//     icon: dcc,
+//     iconBg: '#333333',
+//     date: 'Sep 2022 - Present',
+//   },
+// ];
 
 const projects = [
   {

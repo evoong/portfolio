@@ -37,12 +37,12 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis
-        sapiente ipsum dolorum dicta eaque cumque inventore molestias, beatae ea
-        quaerat alias accusamus voluptas autem! Alias odit voluptates in totam
-        vitae dignissimos minus eaque culpa unde tempore dolore aperiam
-        obcaecati voluptatum aliquam corrupti, suscipit accusamus! Odit unde
-        veniam dolorum ipsum doloribus.
+        Hi, I’m a data scientist and software developer with a Bachelor's degree in Computational Mathematics and Information Technology Management from the University of Waterloo. I specialize in data science, data analysis, and software engineering, and I’m passionate about solving complex problems using machine learning, data analytics, and software development.
+
+        With experience in both the public and private sectors, I’ve contributed to diverse projects, from improving data visualizations at Innovation Science and Economic Development Canada to optimizing high-performance applications at OpenText. My technical expertise includes Python, SQL, Java, and cloud technologies like AWS and GCP.
+
+        Now, I’m seeking opportunities in data science, data analysis, data engineering, or software development, where I can apply my skills to build data-driven solutions and drive innovation. Let’s connect and explore how I can contribute to your team!
+      
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

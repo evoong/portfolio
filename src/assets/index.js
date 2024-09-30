@@ -42,6 +42,10 @@ import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import bell from './company/bell.png';
+import ised from './company/ised.jpg';
+import opentext from './company/opentext.png';
+
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -96,4 +100,7 @@ export {
   dcc,
   kelhel,
   microverse,
+  bell,
+  ised,
+  opentext,
 };

@@ -30,43 +30,130 @@ import {
   bell,
   opentext,
   ised,
+  huffman,
+  landscape,
+  straights,
+  udp,
+  stubhub,
+  dataScience,
+  dataAnalysis,
+  dataEngineering,
+  cplus,
+  matlab,
+  rlogo,
+  python,
+  java,
+  sql,
+  bash,
+  fullstack,
+  github,
+  linkedin,
+  githubs,
+  email,
+  phone,
 } from '../assets';
 
 export const navLinks = [
+ 
   {
     id: 'about',
     title: 'About',
   },
   {
+    id: 'work',
+    title: 'Experience',
+  },
+  {
     id: 'projects',
     title: 'Projects',
   },
+  // {
+  //   id: 'contact',
+  //   title: 'Contact',
+  // },
   {
-    id: 'contact',
+    id: 'ContactDetails',
     title: 'Contact',
-  },
+  }
 ];
 
 const services = [
+  // {
+  //   title: 'Frontend Developer',
+  //   icon: frontend,
+  // },
   {
-    title: 'Frontend Developer',
-    icon: frontend,
+    title: 'Full Stack Developer',
+    icon: fullstack,
+  },
+  // {
+  //   title: 'UI/UX Design',
+  //   icon: ux,
+  // },
+  // {
+  //   title: 'Software Prototyping',
+  //   icon: prototyping,
+  // },
+  {
+    title: 'Data Analytics',
+    icon: dataAnalysis,
   },
   {
-    title: 'Backend Developer',
-    icon: backend,
+    title: 'Data Science',
+    icon: dataScience,
   },
   {
-    title: 'UI/UX Design',
-    icon: ux,
-  },
-  {
-    title: 'Software Prototyping',
-    icon: prototyping,
-  },
+    title: 'Data Engineering',
+    icon: dataEngineering,
+  }
 ];
 
+const socials = [
+  {title: 'LinkedIn', 
+    icon: linkedin, 
+    link: 'https://www.linkedin.com/in/eric-voong/'
+
+  },
+  {title: 'GitHub', 
+    icon: github, 
+    link: 'httpes://github.com/evoong'
+  },
+  {title: 'Email', 
+    icon: email, 
+    link: 'mailto:ericxoong@gmail.com'
+  },
+  {title: 'Phone', 
+    icon: phone, 
+    link: 'tel:+1-647-687-2386'
+  },
+]
+
 const technologies = [
+  {
+    name: 'Python',
+    icon: python,
+  },
+  {
+    name: 'Java',
+    icon: java,
+  },
+  {
+    name: 'SQL',
+    icon: sql,
+  },
+  {
+    name: 'R',
+    icon: rlogo,
+  },
+  {
+    name: 'MATLAB',
+    icon: matlab,
+  },
+  {
+    name: 'C++',
+    icon: cplus,
+  },
+  
   {
     name: 'HTML 5',
     icon: html,
@@ -87,42 +174,46 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
-  {
-    name: 'Tailwind CSS',
-    icon: tailwind,
-  },
-  {
-    name: 'Node JS',
-    icon: nodejs,
-  },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
-  {
-    name: 'postgresql',
-    icon: postgresql,
-  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
+  // {
+  //   name: 'Tailwind CSS',
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: 'Node JS',
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
+  // {
+  //   name: 'graphql',
+  //   icon: graphql,
+  // },
+  // {
+  //   name: 'postgresql',
+  //   icon: postgresql,
+  // },
   {
     name: 'git',
     icon: git,
   },
-  {
-    name: 'figma',
-    icon: figma,
-  },
+  // {
+  //   name: 'figma',
+  //   icon: figma,
+  // },
   {
     name: 'docker',
     icon: docker,
   },
+  {
+    name: 'bash',
+    icon: bash,
+  }
 ];
 
 
@@ -133,6 +224,7 @@ const experiences = [
     icon: ised, // Add appropriate icon here
     iconBg: '#333333',
     date: 'May 2022 - April 2024',
+    description: 'hello'
   },
   {
     title: 'Software Developer',
@@ -140,6 +232,7 @@ const experiences = [
     icon: opentext, // Add appropriate icon here
     iconBg: '#333333',
     date: 'May 2021 - August 2021',
+    description: ''
   },
   {
     title: 'Data Analyst',
@@ -147,6 +240,7 @@ const experiences = [
     icon: bell, // Add appropriate icon here
     iconBg: '#333333',
     date: 'January 2020 - August 2020',
+    description: ''
   },
 ];
 
@@ -185,8 +279,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'LandScape Maps',
+    description: 'Extract and analyze key trends from patent data using NLP techniques.',
     tags: [
       {
         name: 'react',
@@ -201,15 +295,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
+    image: landscape,
+    repo: 'https://ised-isde.canada.ca/site/canadian-intellectual-property-office/sites/default/files/attachments/2022/CIPOCS-1912-CPLFPMT-eng.pdf#page=29',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Stubhub WebScaper',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Automate the extraction of ticket prices, event details, and artist social media statistics.',
     tags: [
       {
         name: 'react',
@@ -224,14 +318,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
+    image: stubhub,
+    repo: 'https://github.com/evoong/Stubhub-Tracker',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'UDP Transfer Protocol',
+    description: 'Designed a custom protocol for reliable file transfer over UDP.',
     tags: [
       {
         name: 'nextjs',
@@ -246,14 +340,14 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
+    image: udp,
+    repo: 'https://github.com/evoong/Reliable-File-Transfer-Protocol-over-UDP',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'Huffman Compression',
+    description: `Huffman coding algorithm in Java to optimize data storage and transmission.`,
     tags: [
       {
         name: 'nextjs',
@@ -268,15 +362,15 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
+    image: huffman,
     repo: 'https://github.com/shaqdeff/Movie-Metro',
     demo: 'https://movie-metro.netlify.app/',
   },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
+    name: 'Straights Card Game',
     description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+      'The Straights Card Game is a classic card game where players aim to play cards in a sequence',
     tags: [
       {
         name: 'nextjs',
@@ -291,10 +385,10 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    image: straights,
+    repo: 'https://github.com/evoong/Straights-Card-Game-Implementation',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, socials };

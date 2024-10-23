@@ -24,6 +24,13 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
+
+import fullstack from './icons/fullstack.png';
+import dataScience from './icons/dataScience.png';
+import dataAnalysis from './icons/dataAnalyst.png';
+import dataEngineering from './icons/dataEngineering.png';
+  
+
 import css from './tech/css.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
@@ -38,6 +45,15 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+
+import cplus from './tech/cplus.png';
+import matlab from './tech/matlab.png';
+import rlogo from './tech/rlogo.png';
+import python from './tech/python.png';
+import sql from  './tech/sql.png';
+import bash from './tech/bash.png';
+import java from './tech/java.png';
+
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
@@ -54,6 +70,18 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+
+import myresume from './personal/myresume.pdf';
+import huffman from './projects/huffman.jpg';
+import landscape from './projects/landscape.png';
+import straights from './projects/straights.jpg'
+import udp from './projects/udp.png'; 
+import stubhub from './projects/stubhub.png';
+
+import linkedin from './socials/linkedin.png';
+import githubs from './socials/githubs.png';
+import email from './socials/email.png';
+import phone from './socials/phone.png';
 
 export {
   bwmap,
@@ -105,4 +133,25 @@ export {
   ised,
   opentext,
   me,
+  myresume,
+  huffman,
+  landscape,
+  straights,
+  udp,
+  stubhub,
+  dataAnalysis,
+  dataEngineering,
+  dataScience,
+  cplus,
+  matlab,
+  rlogo,
+  python,
+  sql,
+  bash,
+  java,
+  fullstack,
+  linkedin,
+  githubs,
+  email,
+  phone,
 };

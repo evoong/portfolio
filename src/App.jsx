@@ -7,6 +7,7 @@ import {
   Navbar,
   Tech,
   Projects,
+  ContactDetails,
 } from './components';
 
 const App = () => {
@@ -38,7 +39,8 @@ const App = () => {
           </div>
         </div>
         <div className="relative z-0">
-          <Contact />
+          {/* <Contact /> */}
+          <ContactDetails />
         </div>
       </div>
     </BrowserRouter>

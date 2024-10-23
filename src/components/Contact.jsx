@@ -29,8 +29,8 @@ const Contact = () => {
     //click on create a new template then click on save.
     emailjs
       .send(
-        'serviceID', // paste your ServiceID here (you'll get one when your service is created).
-        'templateID', // paste your TemplateID here (you'll find it under email templates).
+        'serviceID', // paste your ServiceID here (you'll get one when your service is created). service_xbd2gw2
+        'templateID', // paste your TemplateID here (you'll find it under email templates). template_zmh0827
         {
           from_name: form.name,
           to_name: 'YourName', // put your name here.

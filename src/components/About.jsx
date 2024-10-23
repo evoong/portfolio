@@ -37,7 +37,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Hi, I’m a data scientist and software developer with a Bachelor's degree in Computational Mathematics and Information Technology Management from the University of Waterloo. I specialize in data science, data analysis, and software engineering, and I’m passionate about solving complex problems using machine learning, data analytics, and software development.
+        Hi, I’m a software developer and data specialist with a Bachelor's degree in Computational Mathematics and Information Technology Management from the University of Waterloo. I specialize in data science, data analysis, and software engineering, and I’m passionate about solving complex problems using machine learning, data analytics, and software development.
 
         With experience in both the public and private sectors, I’ve contributed to diverse projects, from improving data visualizations at Innovation Science and Economic Development Canada to optimizing high-performance applications at OpenText. My technical expertise includes Python, SQL, Java, and cloud technologies like AWS and GCP.
 

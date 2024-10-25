@@ -224,7 +224,7 @@ const experiences = [
     icon: ised, // Add appropriate icon here
     iconBg: '#333333',
     date: 'May 2022 - April 2024',
-    description: 'hello'
+    description: 'At ISED, I developed machine learning models that significantly improved data accuracy by 70%, automating the cleaning of large, unstructured datasets. This work laid the foundation for more reliable and data-driven policy reports.'
   },
   {
     title: 'Software Developer',
@@ -232,7 +232,7 @@ const experiences = [
     icon: opentext, // Add appropriate icon here
     iconBg: '#333333',
     date: 'May 2021 - August 2021',
-    description: ''
+    description: 'At OpenText, I optimized a high-performance remote desktop access solution for NVIDIA hardware, improving its performance by 25%, which enhanced user experience across multiple platforms. The improvements were critical in scaling the system’s usability and reducing bottlenecks during high-demand periods.',
   },
   {
     title: 'Data Analyst',
@@ -240,7 +240,7 @@ const experiences = [
     icon: bell, // Add appropriate icon here
     iconBg: '#333333',
     date: 'January 2020 - August 2020',
-    description: ''
+    description: 'At Bell Media, I developed an automated ETL pipeline, streamlining data integration from 14 different sources and reducing operational time by 25%. This work played a key role in optimizing the data infrastructure, allowing the business to handle more traffic and process data faster.'
   },
 ];
 

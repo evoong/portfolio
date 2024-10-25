@@ -47,6 +47,12 @@ const ExperienceCard = ({ experience }) => (
         style={{ margin: 0 }}>
         {experience.company_name}
       </p>
+      <p
+        className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
+        style={{ margin: 0 }}>
+        {experience.description}
+      </p>
+      
     </div>
   </VerticalTimelineElement>
 );

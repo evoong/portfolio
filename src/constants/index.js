@@ -363,7 +363,7 @@ const projects = [
       },
     ],
     image: huffman,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
+    repo: 'https://github.com/evoong/Huffman-Compression',
     demo: 'https://movie-metro.netlify.app/',
   },
   {

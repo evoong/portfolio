@@ -115,7 +115,7 @@ const socials = [
 
   },
   {title: 'GitHub', 
-    icon: github, 
+    icon: githubs, 
     link: 'httpes://github.com/evoong'
   },
   {title: 'Email', 

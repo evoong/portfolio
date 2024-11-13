@@ -301,9 +301,9 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Stubhub WebScaper',
+    name: 'Concert Price Predictor',
     description:
-      'Automate the extraction of ticket prices, event details, and artist social media statistics.',
+      'Automate the extraction of ticket prices, event details, and artist social media statistics, and predict ticket prices using machine learning models.',
     tags: [
       {
         name: 'react',
